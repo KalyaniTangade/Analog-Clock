@@ -1,0 +1,45 @@
+#clockcontainer{
+     position: relative; /*hour,minute, second hand will adjust each other position */
+    margin: auto;
+    /* border: 2px solid red; */
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png);
+    background-size: 100%;
+
+
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.5%;
+    height: 22%;
+    left: 49.5%;
+    bottom: 49.5%;
+    opacity: 0.8; 
+}
+
+#minute{
+    width: 1.3%;
+    height: 27%;
+    bottom: 49.5%;
+    left: 49.5%;
+    opacity: 0.8;
+}
+
+
+#second{
+    width: 1%;
+    height: 35%;
+    bottom: 49.5%;
+    left: 49.5%;
+    opacity: 0.8;
+     
+  
+}
+    
